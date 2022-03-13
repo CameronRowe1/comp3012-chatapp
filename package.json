@@ -2,23 +2,20 @@
   "name": "part02",
   "version": "1.0.0",
   "engines": {
-    "node": "17.2.0"
+    "node": "14.x"
   },
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "npm install && node server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Cam",
-  "license": "ISC",
-  "devDependencies": {
-    "express": "^4.17.3",
+  "dependencies": {
+    "express": "^4.15.2",
     "socket.io": "^4.4.1"
   },
-  "dependencies": {
-    "express": "*",
-    "body-parser": "*",
+  "devDependencies": {
+    "express": "^4.15.2",
     "socket.io": "^4.4.1"
   }
 }
